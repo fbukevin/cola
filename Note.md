@@ -1,4 +1,5 @@
-
+抓取指定 uid 的解決方案：
+直接在 contrib/weibo/bundle.py 中修改 self.uid 為指定的 uid
 
 使用 cola 碰到的一些問題
 1. 安裝

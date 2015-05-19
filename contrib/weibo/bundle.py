@@ -27,8 +27,9 @@ from cola.core.unit import Bundle
 class WeiboUserBundle(Bundle):
     def __init__(self, uid):
         super(WeiboUserBundle, self).__init__(uid)
-        self.uid = uid
-        self.exists = True
+        #self.uid = uid
+        self.uid = "1212906722"
+	self.exists = True
         
         self.last_error_page = None
         self.last_error_page_times = 0
@@ -37,7 +38,7 @@ class WeiboUserBundle(Bundle):
         self.last_update = None
         self.newest_mids = []
         self.current_mblog = None
-        
+	print self.uid + "uid"        
     def urls(self):
         start = int(time.time() * (10**6))
         return [
