@@ -1,5 +1,5 @@
 job:
-  db: sina
+  db: with_you
   mode: bundle # also can be `bundle`
   size: 100   # the destination (including bundle or url) size
   limit: 0  # 0 means no restrictions, if greater than 0, means webpages opened per minute.
@@ -10,11 +10,10 @@ job:
     host: localhost
     port: 27017
   login:
-    - username: # username
-      password: # password
+    - username:  # username
+      password:  # password
   starts:
-    - uid: 3211200050
-    - uid: 1898353550
+    - uid: #this seems no use 
   fetch:
     forward: no
     comment: no

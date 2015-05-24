@@ -28,7 +28,7 @@ class WeiboUserBundle(Bundle):
     def __init__(self, uid):
         super(WeiboUserBundle, self).__init__(uid)
         #self.uid = uid
-        self.uid = "1212906722"
+        self.uid = "2909467567"
 	self.exists = True
         
         self.last_error_page = None
